@@ -8,7 +8,12 @@ export default function App() {
     <div className="background">
       <Weather default="Rotterdam" />
       <footer>
-        <a href="/">Open-source code on Github</a>
+        <a
+          href="https://github.com/Faerthurin/react-weather-app"
+          target="_blank"
+        >
+          Open-source code on Github
+        </a>
       </footer>
     </div>
   );
