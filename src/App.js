@@ -1,8 +1,15 @@
-import logo from "./logo.svg";
+import React from "react";
+
+import Weather from "./Weather";
 import "./App.css";
 
-function App() {
-  return <div className="App"></div>;
+export default function App() {
+  return (
+    <div className="background">
+      <Weather default="Rotterdam" />
+      <footer>
+        <a href="/">Open-source code on Github</a>
+      </footer>
+    </div>
+  );
 }
-
-export default App;

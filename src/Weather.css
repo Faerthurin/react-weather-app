@@ -1,0 +1,23 @@
+.search-bar {
+  display: block;
+  margin: 130px 76px;
+  margin-bottom: 0;
+}
+
+#search {
+  border: 1px solid #8ea6d9;
+  border-radius: 5px;
+  width: 321px;
+  margin-right: 10px;
+  height: 30px;
+}
+
+#search-btn {
+  justify-content: center;
+  background: #58ee58;
+  border: 1px solid #52fc52;
+  border-radius: 5px;
+  width: 107px;
+  height: 30px;
+  padding: 0;
+}
