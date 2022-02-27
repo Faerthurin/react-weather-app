@@ -10,6 +10,7 @@ export default function CurrentCity(props) {
       <h1>
         <img
           src={`http://openweathermap.org/img/wn/${props.icon}@2x.png`}
+          alt=" "
         ></img>
         <Temperature celsius={props.temp} />
       </h1>
