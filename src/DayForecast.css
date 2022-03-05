@@ -1,0 +1,18 @@
+.forecastImg {
+  width: 80px;
+}
+
+.max,
+.min {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.min {
+  opacity: 0.8;
+}
+
+.day {
+  font-weight: 600;
+  font-size: 18px;
+}
